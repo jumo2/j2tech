@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import ScrollAnimation from 'react-animate-on-scroll'
 import './App.css'
 
 
