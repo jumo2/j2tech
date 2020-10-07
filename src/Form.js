@@ -1,7 +1,4 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form'
-import Card from 'react-bootstrap/Card'
-import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -44,7 +41,7 @@ function About() {
                     <h1 className="center display-4 p-text-blue">Process Automation</h1>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='animate__fadeInRight'>
-                     <p className="p-text-blue">Are you spending a lot of time on manual repetative tasks? Let's automate that work load so you can focus on your customers.</p>
+                     <p className="p-text-blue">Are you spending a lot of time on manual repetative tasks? Let's automate that work load so you can focus on what matters, your customers.</p>
                 </ScrollAnimation>
             </Jumbotron>
 

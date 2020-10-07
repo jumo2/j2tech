@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 
 
@@ -31,4 +31,4 @@ function Services() {
 
 
 
-export default Services;
+export default Services; */
