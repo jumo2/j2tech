@@ -7,19 +7,6 @@ import sections from './data/sectionContent'
 import ContactForm from './Form'
 
 
-const QuoteSection = ({title, body}) => {
-    return (
-        <Jumbotron className="App-header jumbotron-2">
-        <ScrollAnimation animateIn='animate__fadeInLeft'>
-            <h1 className="center display-4 p-text-blue" >
-                {title}
-            </h1>
-        </ScrollAnimation>
-        
-    </Jumbotron>
-    )
-}
-
 const BlueSection = ({title, body}) => {
     return (
         <Jumbotron className="App-header-2" >

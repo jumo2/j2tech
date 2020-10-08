@@ -5,31 +5,123 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import Alert from 'react-bootstrap/Alert'
 
 import './App.css'
 
 
 
-function QuoteForm() {
-    return (
-        <Form>
+class ContactForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: ' ',
+            email: ' ',
+            message: ' '
+        }
+    }
+
+
+
+    handleSubmit(e){
+        e.preventDefault();
+
+/*         fetch('http://localhost:3000/send', {
+            method: "POST",
+            body: JSON.stringify(this.state),
+            headers: {
+                'Accept': "application/json",
+                'Content-Type': 'application/json'
+            },
+        }).then(
+            (response) => (response.json())
+        ).then((response) => {
+            if (response.status === 'success'){
+                alert("Message Sent.");
+                this.resetForm()
+            }else if (response.status === 'fail'){
+                alert("Message failed to send.")
+            }
+        }) */
+
+        this.alertSuccess("Success")
+        this.resetForm();
+        
+    }
+
+    alertSuccess(value){
+        return(
+                <Alert varient="Success" show={true}>HI</Alert>
+            
+        )
+    }
+
+    resetForm(){
+        this.setState({name: ' ', email: ' ', message: ' '})
+    }
+
+    render() {
+        return (
+            <Jumbotron className="App-header jumbotron-2 p-text-blue">
+            <Row>
+                <Col>
+                    <ScrollAnimation animateIn='animate__fadeInLeft'>
+                        <h1 className="center display-4 p-text-blue" >
+                            Contact: 
+                        </h1>
+                    </ScrollAnimation>
+                </Col>
+                <Col lg={true}>
+                    <ScrollAnimation animateIn="animate__fadeInRight">
+        <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <Form.Group>
                 <Form.Row>
-                    <Form.Label for="inputName">Name</Form.Label>
-                <Form.Control className="col-sm-10" type="text" id="inputName" placeholder="Whats your name?"></Form.Control>
+                    <Form.Label htmlFor="inputName">Name</Form.Label>
+                    <Form.Control  type="text" id="inputName" value={this.state.name} onChange={this.onNameChange.bind(this)}></Form.Control>
                 </Form.Row>
             </Form.Group>
             <Form.Group>
                 <Form.Row>
-                    <Form.Label for="inputEmail">Email</Form.Label>
-                <Form.Control className="col-sm-10" type="emaik" id="inputEmail" placeholder="Whats your email address?"></Form.Control>
+                    <Form.Label htmlFor="inputEmail">Email</Form.Label>
+                    <Form.Control  type="email" id="inputEmail" value={this.state.email} onChange={this.onEmailChange.bind(this)}></Form.Control>
                 </Form.Row>
             </Form.Group>
+            <Form.Group>
+                <Form.Row>
+                    <Form.Label htmlFor="inputMessage">Message</Form.Label>
+                    <Form.Control as="textarea" id="inputMessage" value={this.state.message} onChange={this.onMessageChange.bind(this)}></Form.Control>
+                </Form.Row>
+            </Form.Group>
+            <Form.Row>
+            <Button className="submit-button" type="submit" size="lg">Send</Button>
+            </Form.Row>
         </Form>
-    )
+                    </ScrollAnimation>
+                </Col>
+            </Row>
+        </Jumbotron>
+        );
+    }
+
+    onNameChange(event) {
+        this.setState({name: event.target.value})
+    }
+
+    onEmailChange(event) {
+        this.setState({email: event.target.value})
+    }
+
+    onMessageChange(event){
+        this.setState({message: event.target.value})
+    }
+
+    
+
+
+
 }
 
-function ContactForm () {
+/* function ContactForm () {
     return (
         <Jumbotron className="App-header jumbotron-2 p-text-blue">
             <Row>
@@ -70,6 +162,6 @@ function ContactForm () {
             </Row>
         </Jumbotron>
     )
-}
+} */
 
 export default ContactForm;
