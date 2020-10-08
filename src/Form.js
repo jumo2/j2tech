@@ -46,13 +46,13 @@ function ContactForm () {
             <Form.Group>
                 <Form.Row>
                     <Form.Label htmlFor="inputName">Name</Form.Label>
-                    <Form.Control  type="text" id="inputName" placeholder="Whats your name?"></Form.Control>
+                    <Form.Control  type="text" id="inputName" placeholder="j2Tech"></Form.Control>
                 </Form.Row>
             </Form.Group>
             <Form.Group>
                 <Form.Row>
                     <Form.Label htmlFor="inputEmail">Email</Form.Label>
-                    <Form.Control  type="email" id="inputEmail" placeholder="Whats your email address?"></Form.Control>
+                    <Form.Control  type="email" id="inputEmail" placeholder="j2tech@example.com"></Form.Control>
                 </Form.Row>
             </Form.Group>
             <Form.Group>
