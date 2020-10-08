@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37b03d77265cc09bf0e6be8d7ad6caec",
+    "revision": "f688831e9bef360e01646037a59b7802",
     "url": "/j2tech/index.html"
   },
   {
-    "revision": "f22e54169843fbb86e8e",
+    "revision": "71dfb8974651219d93fc",
     "url": "/j2tech/static/css/2.f7012bfb.chunk.css"
   },
   {
-    "revision": "4f40b3e2fa1c5cab7bfc",
+    "revision": "49dacc06a47b9d60c779",
     "url": "/j2tech/static/css/main.df8b8538.chunk.css"
   },
   {
-    "revision": "f22e54169843fbb86e8e",
-    "url": "/j2tech/static/js/2.f8ce04ce.chunk.js"
+    "revision": "71dfb8974651219d93fc",
+    "url": "/j2tech/static/js/2.ede0f253.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/j2tech/static/js/2.f8ce04ce.chunk.js.LICENSE.txt"
+    "url": "/j2tech/static/js/2.ede0f253.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f40b3e2fa1c5cab7bfc",
-    "url": "/j2tech/static/js/main.d0e6a5c9.chunk.js"
+    "revision": "49dacc06a47b9d60c779",
+    "url": "/j2tech/static/js/main.b524a681.chunk.js"
   },
   {
     "revision": "86069783f2156204b45d",
