@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import ScrollAnimation from 'react-animate-on-scroll'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import sections from './data/sectionContent'
+import ContactForm from './Form'
 
 
 const QuoteSection = ({title, body}) => {
@@ -14,6 +15,7 @@ const QuoteSection = ({title, body}) => {
                 {title}
             </h1>
         </ScrollAnimation>
+        
     </Jumbotron>
     )
 }
@@ -65,7 +67,8 @@ function Sections () {
         <BlueSection title={sections.web.title} body={sections.web.body} />
         <WhiteColSection title={sections.automation.title} body={sections.automation.body} />
         <BlueSection title={sections.data.title} body={sections.data.body} />
-        <QuoteSection title={sections.quote.title} />
+{/*         <QuoteSection title={sections.quote.title} /> */}
+        <ContactForm />
         </>
     )
 }

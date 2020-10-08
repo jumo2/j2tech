@@ -72,6 +72,14 @@
   color: #141e30 !important;
 }
 
+.message-input {
+  height: 200px;
+}
+
+.submit-button {
+  background: -webkit-linear-gradient(rgba(20, 30, 48, 1), rgba(36, 59, 85, 1)) !important;
+  color: white !important
+}
 
 
 
