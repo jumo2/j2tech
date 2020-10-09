@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/j2tech/static/css/main.df8b8538.chunk.css",
-    "main.js": "/j2tech/static/js/main.3ada79df.chunk.js",
-    "main.js.map": "/j2tech/static/js/main.3ada79df.chunk.js.map",
+    "main.js": "/j2tech/static/js/main.9cc822a3.chunk.js",
+    "main.js.map": "/j2tech/static/js/main.9cc822a3.chunk.js.map",
     "runtime-main.js": "/j2tech/static/js/runtime-main.c9fd4b77.js",
     "runtime-main.js.map": "/j2tech/static/js/runtime-main.c9fd4b77.js.map",
     "static/css/2.f7012bfb.chunk.css": "/j2tech/static/css/2.f7012bfb.chunk.css",
     "static/js/2.ede0f253.chunk.js": "/j2tech/static/js/2.ede0f253.chunk.js",
     "static/js/2.ede0f253.chunk.js.map": "/j2tech/static/js/2.ede0f253.chunk.js.map",
     "index.html": "/j2tech/index.html",
-    "precache-manifest.c4d58e819b19918e288903bad6025207.js": "/j2tech/precache-manifest.c4d58e819b19918e288903bad6025207.js",
+    "precache-manifest.189f8e655c886c14113fcb742435013e.js": "/j2tech/precache-manifest.189f8e655c886c14113fcb742435013e.js",
     "service-worker.js": "/j2tech/service-worker.js",
     "static/css/2.f7012bfb.chunk.css.map": "/j2tech/static/css/2.f7012bfb.chunk.css.map",
     "static/css/main.df8b8538.chunk.css.map": "/j2tech/static/css/main.df8b8538.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.f7012bfb.chunk.css",
     "static/js/2.ede0f253.chunk.js",
     "static/css/main.df8b8538.chunk.css",
-    "static/js/main.3ada79df.chunk.js"
+    "static/js/main.9cc822a3.chunk.js"
   ]
 }
