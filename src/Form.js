@@ -30,7 +30,7 @@ class ContactForm extends React.Component {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
-                'Access-Control-Allow-Origin': 'https://j2tech.xyz/',
+                'Access-Control-Allow-Origin': 'https://jumo2.github.io/j2tech/',
                 'Accept': "application/json",
                 'Content-Type': 'application/json',
                 'x-api-key': 'R80ARBeFIg3dJgXbs2Esk4WgGdgTk9PW3nYlq1Bb'
