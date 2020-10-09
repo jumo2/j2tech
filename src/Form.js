@@ -26,26 +26,27 @@ class ContactForm extends React.Component {
     handleSubmit(e){
         e.preventDefault();
 
-/*         fetch('http://localhost:3000/send', {
+         fetch('https://x0krkfgex3.execute-api.us-east-1.amazonaws.com/prod/', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
+                'Access-Control-Allow-Origin': 'https://j2tech.xyz/',
                 'Accept': "application/json",
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'x-api-key': 'R80ARBeFIg3dJgXbs2Esk4WgGdgTk9PW3nYlq1Bb'
             },
         }).then(
-            (response) => (response.json())
+            /* (response) => (response.json()) */
+            (response) => (console.log(response))
         ).then((response) => {
-            if (response.status === 'success'){
+            if (response.status === '200'){
                 alert("Message Sent.");
                 this.resetForm()
             }else if (response.status === 'fail'){
                 alert("Message failed to send.")
             }
-        }) */
+        }) 
 
-        this.alertSuccess("Success")
-        this.resetForm();
         
     }
 
