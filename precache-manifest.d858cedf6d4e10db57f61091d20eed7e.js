@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d49ab271e42dcac79f7694afee7f3a05",
+    "revision": "8a3f121741d13bbdbb0108b90215e5fd",
     "url": "/j2tech/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/j2tech/static/css/2.f7012bfb.chunk.css"
   },
   {
-    "revision": "8618cdf896635f6a39a8",
+    "revision": "181319a7289a2d93484a",
     "url": "/j2tech/static/css/main.df8b8538.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/j2tech/static/js/2.ede0f253.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8618cdf896635f6a39a8",
-    "url": "/j2tech/static/js/main.9cc822a3.chunk.js"
+    "revision": "181319a7289a2d93484a",
+    "url": "/j2tech/static/js/main.28dc49f4.chunk.js"
   },
   {
     "revision": "86069783f2156204b45d",
