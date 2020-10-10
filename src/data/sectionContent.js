@@ -9,11 +9,11 @@ let sections = {
     },
     automation: {
         title: "Process Automation",
-        body: "Are you spending a lot of time on manual repetative tasks? Let's automate that work load so you can focus on what matters, your customers."
+        body: "Are you spending a lot of time on repetative manual tasks? Let's automate that work load so you can focus on what matters, your customers."
     },
     data: {
         title: "Data Storage",
-        body: "Does the thought of losing all your important business data due to a faulty hard drive keep you up at night? I can offer low cost data storage with built in redundency to ensure you never lose whats important to you."
+        body: "Does the thought of losing all your important business data due to a faulty hard drive keep you up at night? I can offer low cost data storage with built in redundancy to ensure you never lose whats important to you."
     },
     quote: {
         title: "Request a quote",
