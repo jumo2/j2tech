@@ -26,11 +26,11 @@ class ContactForm extends React.Component {
     handleSubmit(e){
         e.preventDefault();
 
-         fetch('https://x0krkfgex3.execute-api.us-east-1.amazonaws.com/prod/', {
+         fetch('https://31mouf77ff.execute-api.us-east-1.amazonaws.com/prod/', {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
-                'Access-Control-Allow-Origin': 'https://jumo2.github.io/j2tech/',
+                /* 'Access-Control-Allow-Origin': 'https://jumo2.github.io', */
                 'Accept': "application/json",
                 'Content-Type': 'application/json',
                 'x-api-key': 'R80ARBeFIg3dJgXbs2Esk4WgGdgTk9PW3nYlq1Bb'
