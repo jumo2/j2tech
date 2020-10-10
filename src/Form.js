@@ -30,22 +30,16 @@ class ContactForm extends React.Component {
             method: "POST",
             body: JSON.stringify(this.state),
             headers: {
-                /* 'Access-Control-Allow-Origin': 'https://jumo2.github.io', */
                 'Accept': "application/json",
                 'Content-Type': 'application/json',
                 'x-api-key': 'R80ARBeFIg3dJgXbs2Esk4WgGdgTk9PW3nYlq1Bb'
             },
         }).then(
-            /* (response) => (response.json()) */
-            (response) => (console.log(response))
-        ).then((response) => {
-            if (response.status === '200'){
+            (response) => {
                 alert("Message Sent.");
                 this.resetForm()
-            }else if (response.status === 'fail'){
-                alert("Message failed to send.")
-            }
-        }) 
+            /* (response) => console.log(response) */}
+        )
 
         
     }
