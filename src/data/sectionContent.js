@@ -1,7 +1,7 @@
 let sections = {
     tagline: {
         title: "Leverage the power of the cloud",
-        body: "Small businesses do not have the resources or budget to develop custom software. By leveraging new technologies such as cloud computing, I can bring low cost solutions to your business, leading to a first class customer experience and competative advantage in the market place."
+        body: "Small businesses do not have the resources or budget to develop custom software. By leveraging new technologies such as cloud computing, I can bring low cost solutions to your business, leading to a first class customer experience and competitive advantage in the market place."
     },
     web: {
         title: "Website Development",
